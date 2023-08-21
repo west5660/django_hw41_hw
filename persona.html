@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+</head>
+<body class="character">
+    <h1>Работник месяца</h1>
+    <h2>{{ k1 }}</h2>
+    <h2>{{ k2 }}</h2>
+    <h2>{{ k3 }}</h2>
+    <img src="{% static k4 %}" alt="foto" class="b1" width="400px">
+    <br><br><a href={{ k5 }}>Перейди по ссылке</a><br><br>
+
+
+
+<a href="{% url 'home' %}">Назад</a>
+</body>
+</html>

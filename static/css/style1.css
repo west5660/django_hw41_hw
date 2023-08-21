@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#about-movie {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #333;
+}
+
+.character {
+    display: inline-block;
+    margin: 1rem;
+    text-align: center;
+}
+
+.character img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eee;
+}
+
+
+/* responsive.css */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    .character {
+        margin: 0.5rem;
+    }
+
+    .character img {
+        width: 100px;
+        height: 100px;
+    }
+}
